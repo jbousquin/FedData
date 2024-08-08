@@ -222,6 +222,7 @@ get_nlcd <- function(template,
   return(terra::rast(outfile))
 }
 
+
 #' @export
 #' @rdname get_nlcd
 nlcd_colors <- function() {
